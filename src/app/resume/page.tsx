@@ -27,7 +27,7 @@ export default function ResumePage() {
             </a>
             <a
               href={profile.resumePdf}
-              download
+              download="Boyuan-Wu-Resume.pdf"
               className="inline-flex items-center gap-1.5 rounded-md bg-foreground px-2.5 py-1 text-background hover:opacity-85"
             >
               <DownloadIcon className="size-3.5" />

@@ -31,6 +31,9 @@ export const profile = {
   github: "https://github.com/BrianWu1010",
   linkedin: "https://www.linkedin.com/in/boyuanwu01",
   resumePdf: "/resume.pdf",
+  // Kept out of the public repo; `/resume.pdf` is rewritten to this Vercel Blob URL in next.config.ts.
+  resumePdfSource:
+    "https://u8eilgle61ddfnqr.public.blob.vercel-storage.com/Boyuan-Wu-Resume-SDnkdRml9matzbZ8OD3p13rOLJYj0P.pdf",
   resumePage: "/resume",
   focus: ["Applied ML", "RAG / LLM apps", "Computer Vision", "MLOps"],
 };

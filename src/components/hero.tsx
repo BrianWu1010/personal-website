@@ -41,7 +41,7 @@ export function Hero({ activity }: { activity: GitHubActivity | null }) {
             </a>
             <a
               href={profile.resumePdf}
-              download
+              download="Boyuan-Wu-Resume.pdf"
               aria-label="Download resume PDF"
               title="Download PDF"
               className="border-l border-background/20 px-3 py-2 transition-opacity hover:opacity-85"
